@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.3.0 (2026-11-24)
+
+- New token `cc-rain`: rain on a card (the weather card's chance of rain, rain icons and bars). Harbour in light mode, mist in dark mode, so it stays readable on dark cards.
+- `cc-ochre-tone` is lighter in dark mode (#C39037), like the other accents, so sun icons and temperature bars stand out on dark cards. The contrast check covers both.
+
 ## 4.2.0 (2026-11-24)
 
 - **Contrast check:** `tools/contrast.py` checks every colour pair the cards use, in both modes: text needs 4.5:1, icons, dots and bars 3:1. CI runs it, so a colour that makes something unreadable can't be released. It found and fixed:
