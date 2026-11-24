@@ -1,10 +1,10 @@
 # ---------------------------------------------------------------------------
 # Cranberry Canvas — a Home Assistant theme
-# Version: 4.1.0
+# Version: 4.2.0
 # Palette
 #   Colour    Cranberry #591E21 · Olive #514718 · Harbour #40606A · Quail #7D8689
-#             Brick #A8352F · Ochre #8E6420 · Mist #9CC3D6 · Sun #F0B85A (data only)
-#   Light     Canvas #E3DDCF page · Paper #EEE9DF cards · Ink #231C1A · Stone #6E6560
+#             Brick #A8352F · Ochre #8B621F · Mist #9CC3D6 · Sun #F0B85A (data only)
+#   Light     Canvas #E3DDCF page · Paper #EEE9DF cards · Ink #231C1A · Stone #675F5A
 #   Dark      Night #1B1513 page · Ember #2E2422 cards · Ember raised #3A2F2C
 #             Cream #F2ECE0 · Taupe #B5ABA0
 #
@@ -103,14 +103,14 @@ Cranberry Canvas:
       cc-ink: "#231C1A"
       cc-brick: "#A8352F"
       cc-harbour: "#40606A"
-      cc-ochre-tone: "#8E6420"
+      cc-ochre-tone: "#8B621F"
       cc-paper: "#EEE9DF"
       cc-ember: "#2E2422"
       # fills: whole coloured cards and surfaces, the same in both modes
       cc-fill-cranberry: "#591E21"
       cc-fill-olive: "#514718"
       cc-fill-harbour: "#40606A"
-      cc-fill-ochre: "#8E6420"
+      cc-fill-ochre: "#8B621F"
       cc-fill-quail: "#545C5F"
       cc-fill-ember: "#3A2F2C"
       # text and marks on those fills, and on cream
@@ -130,9 +130,11 @@ Cranberry Canvas:
       # calendars, in the order they are picked
       cc-calendar-1: "#B8565B"
       cc-calendar-2: "#8C7F45"
-      cc-calendar-3: "#8FA1A6"
-      cc-calendar-4: "#C99A4A"
-      cc-calendar-5: "#A9AFB1"
+      cc-calendar-3: "#40606A"
+      cc-calendar-4: "#8B621F"
+      cc-calendar-5: "#6E777A"
+      # brick as text on a card: lighter in dark mode so it stays readable
+      cc-brick-text: "#A8352F"
       # bins: like the real ones, lighter in dark mode
       cc-bin-green: "#5E7A34"
       cc-bin-paper: "#3F6585"
@@ -189,7 +191,7 @@ Cranberry Canvas:
 
       # Text and lines
       primary-text-color: "#231C1A"
-      secondary-text-color: "#6E6560"
+      secondary-text-color: "#675F5A"
       disabled-text-color: "#7D8689"
       divider-color: "rgba(35, 28, 26, 0.12)"
       outline-color: "rgba(35, 28, 26, 0.18)"
@@ -198,7 +200,7 @@ Cranberry Canvas:
 
       # Feedback
       error-color: "#A8352F"
-      warning-color: "#8E6420"
+      warning-color: "#8B621F"
       success-color: "#514718"
       info-color: "#40606A"
 
@@ -280,7 +282,7 @@ Cranberry Canvas:
       energy-non-fossil-color: "#8C7F45"
       energy-battery-out-color: "#591E21"
       energy-battery-in-color: "#7A3A3D"
-      energy-gas-color: "#8E6420"
+      energy-gas-color: "#8B621F"
       energy-water-color: "#40606A"
 
       # Tooltips, toggles, sliders
@@ -335,7 +337,7 @@ Cranberry Canvas:
       ha-color-orange-20: "#452C00"
       ha-color-orange-30: "#674301"
       ha-color-orange-40: "#885C11"
-      ha-color-orange-50: "#8E6420"
+      ha-color-orange-50: "#8B621F"
       ha-color-orange-60: "#C1924F"
       ha-color-orange-70: "#D6AD75"
       ha-color-orange-80: "#E9C99F"
@@ -355,7 +357,7 @@ Cranberry Canvas:
 
       # Text, links and focus
       ha-color-text-primary: "#231C1A"
-      ha-color-text-secondary: "#6E6560"
+      ha-color-text-secondary: "#675F5A"
       ha-color-text-disabled: "#7D8689"
       ha-color-text-link: "#591E21"
       ha-color-focus: "#591E21"
@@ -394,7 +396,7 @@ Cranberry Canvas:
       ha-color-form-background-disabled: "#E3DDCF"
       input-fill-color: "#E3DDCF"
       input-ink-color: "#231C1A"
-      input-label-ink-color: "#6E6560"
+      input-label-ink-color: "#675F5A"
       input-idle-line-color: "rgba(35, 28, 26, 0.25)"
       input-hover-line-color: "#591E21"
       input-dropdown-icon-color: "#545C5F"
@@ -416,10 +418,10 @@ Cranberry Canvas:
       label-badge-text-color: "#231C1A"
       label-badge-red: "#A8352F"
       label-badge-green: "#514718"
-      label-badge-yellow: "#8E6420"
+      label-badge-yellow: "#8B621F"
       label-badge-blue: "#7D8689"
       label-badge-grey: "#7D8689"
-      mdc-tab-text-label-color-default: "#6E6560"
+      mdc-tab-text-label-color-default: "#675F5A"
 
       # Tables (settings pages) and code
       data-table-background-color: "#EEE9DF"
@@ -429,11 +431,11 @@ Cranberry Canvas:
       markdown-code-background-color: "rgba(35, 28, 26, 0.07)"
       scrollbar-thumb-color: "rgba(35, 28, 26, 0.25)"
       codemirror-keyword: "#591E21"
-      codemirror-operator: "#6E6560"
+      codemirror-operator: "#675F5A"
       codemirror-variable: "#231C1A"
       codemirror-variable-2: "#231C1A"
       codemirror-variable-3: "#514718"
-      codemirror-builtin: "#8E6420"
+      codemirror-builtin: "#8B621F"
       codemirror-atom: "#A8352F"
       codemirror-number: "#A8352F"
       codemirror-def: "#591E21"
@@ -441,17 +443,17 @@ Cranberry Canvas:
       codemirror-string-2: "#514718"
       codemirror-comment: "#7D8689"
       codemirror-tag: "#591E21"
-      codemirror-meta: "#6E6560"
-      codemirror-attribute: "#8E6420"
+      codemirror-meta: "#675F5A"
+      codemirror-attribute: "#8B621F"
       codemirror-property: "#591E21"
       codemirror-qualifier: "#514718"
-      codemirror-type: "#8E6420"
+      codemirror-type: "#8B621F"
 
       # Graphs: history and statistics use these in order
       color-1: "#591E21"
       color-2: "#514718"
       color-3: "#7D8689"
-      color-4: "#8E6420"
+      color-4: "#8B621F"
       color-5: "#A8352F"
       color-6: "#9C6363"
       color-7: "#746B40"
@@ -467,15 +469,15 @@ Cranberry Canvas:
       state-vacuum-error-color: "#A8352F"
       state-valve-active-color: "#514718"
       state-cover-active-color: "#514718"
-      state-update-active-color: "#8E6420"
+      state-update-active-color: "#8B621F"
       state-plant-active-color: "#514718"
       state-alert-on-color: "#A8352F"
       state-alert-off-color: "#7D8689"
       state-icon-error-color: "#A8352F"
       state-sensor-battery-high-color: "#514718"
-      state-sensor-battery-medium-color: "#8E6420"
+      state-sensor-battery-medium-color: "#8B621F"
       state-sensor-battery-low-color: "#A8352F"
-      state-weather-sunny-color: "#8E6420"
+      state-weather-sunny-color: "#8B621F"
       state-weather-partlycloudy-color: "#7D8689"
       state-weather-cloudy-color: "#7D8689"
       state-weather-fog-color: "#7D8689"
@@ -483,7 +485,7 @@ Cranberry Canvas:
       state-weather-pouring-color: "#4E5A5E"
       state-weather-snowy-color: "#7D8689"
       state-weather-hail-color: "#7D8689"
-      state-weather-lightning-color: "#8E6420"
+      state-weather-lightning-color: "#8B621F"
       state-weather-windy-color: "#7D8689"
       state-weather-exceptional-color: "#A8352F"
 
@@ -498,14 +500,14 @@ Cranberry Canvas:
       cc-ink: "#F2ECE0"
       cc-brick: "#A8352F"
       cc-harbour: "#40606A"
-      cc-ochre-tone: "#8E6420"
+      cc-ochre-tone: "#8B621F"
       cc-paper: "#EEE9DF"
       cc-ember: "#2E2422"
       # fills: whole coloured cards and surfaces, the same in both modes
       cc-fill-cranberry: "#591E21"
       cc-fill-olive: "#514718"
       cc-fill-harbour: "#40606A"
-      cc-fill-ochre: "#8E6420"
+      cc-fill-ochre: "#8B621F"
       cc-fill-quail: "#545C5F"
       cc-fill-ember: "#3A2F2C"
       # text and marks on those fills, and on cream
@@ -528,6 +530,8 @@ Cranberry Canvas:
       cc-calendar-3: "#8FA1A6"
       cc-calendar-4: "#C99A4A"
       cc-calendar-5: "#A9AFB1"
+      # brick as text on a card: lighter in dark mode so it stays readable
+      cc-brick-text: "#E06B62"
       # bins: like the real ones, lighter in dark mode
       cc-bin-green: "#86A45A"
       cc-bin-paper: "#7FA3C2"

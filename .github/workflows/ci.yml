@@ -28,6 +28,8 @@ jobs:
           assert 'light' in modes and 'dark' in modes, 'light and dark mode'
           print(name, len(modes['light']), 'light keys,', len(modes['dark']), 'dark keys')
           PY
+      - name: Every colour pair is readable (4.5:1 text, 3:1 marks)
+        run: python3 tools/contrast.py
       - name: Version has a changelog section
         run: |
           VER=$(grep -oP "^# Version: \K[0-9.]+" themes/cranberry_canvas.yaml)

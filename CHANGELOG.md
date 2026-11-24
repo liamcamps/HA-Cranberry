@@ -1,5 +1,13 @@
 # Changelog
 
+## 4.2.0 (2026-11-24)
+
+- **Contrast check:** `tools/contrast.py` checks every colour pair the cards use, in both modes: text needs 4.5:1, icons, dots and bars 3:1. CI runs it, so a colour that makes something unreadable can't be released. It found and fixed:
+  - **Stone** (secondary text, light mode) #6E6560 → #675F5A, readable on the page as well as on cards.
+  - **Ochre** #8B621F (was #8E6420): cream text on the drying thermostat now passes.
+  - **Calendar colours 3–5 in light mode** are the deep harbour, ochre and quail; the light versions were too pale on paper. Dark mode keeps the light ones.
+  - **New `cc-brick-text`**: brick as text on a card ("Delete", errors). Lighter in dark mode (#E06B62), where plain brick was 2.3:1.
+
 ## 4.1.0 (2026-11-24)
 
 - Every colour the Cranberry cards use is now a theme token, so the theme is the one place to change them. New tokens, in both modes:
