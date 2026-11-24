@@ -44,6 +44,7 @@ PAIRS = [
     ('cc-cranberry', 'cc-cream', TEXT, 'cranberry text on cream buttons'),
     ('cc-olive', 'card-background-color', MARK, 'olive icons: home, running'),
     ('cc-quail', 'card-background-color', MARK, 'icons of things that are off'),
+    ('cc-lamp', 'card-background-color', MARK, 'a lit lamp on a tile: icon, slider'),
     ('cc-rain', 'card-background-color', TEXT, 'rain on a card: the weather card’s chance of rain'),
     ('cc-ochre-tone', 'card-background-color', MARK, 'the weather card: sun icons, temperature bars'),
     ('cc-brick-text', 'card-background-color', TEXT, 'brick text on a card: errors, Delete'),

@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------------------
 # Cranberry Canvas — a Home Assistant theme
-# Version: 4.3.1
+# Version: 4.4.0
 # Palette
 #   Colour    Cranberry #591E21 · Olive #514718 · Harbour #40606A · Quail #7D8689
 #             Brick #A8352F · Ochre #8B621F · Mist #9CC3D6 · Sun #F0B85A (data only)
@@ -122,6 +122,7 @@ Cranberry Canvas:
       cc-sun: "#F0B85A"
       cc-mist: "#9CC3D6"
       cc-rain: "#40606A"  # rain on a card: text, icons, bars
+      cc-lamp: "#591E21"  # a lit lamp on a tile: the icon and the brightness slider
       cc-taupe: "#B5ABA0"
       cc-temp-freezing: "#B9D7E8"
       cc-temp-cold: "#C4D6DE"
@@ -521,6 +522,7 @@ Cranberry Canvas:
       cc-sun: "#F0B85A"
       cc-mist: "#9CC3D6"
       cc-rain: "#9CC3D6"  # rain on a card: text, icons, bars
+      cc-lamp: "#B8565B"  # a lit lamp on a tile: the icon and the brightness slider
       cc-taupe: "#B5ABA0"
       cc-temp-freezing: "#B9D7E8"
       cc-temp-cold: "#C4D6DE"

@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.4.0 (2026-11-24)
+
+- New token `cc-lamp`: a lit lamp on a tile (its icon and brightness slider). Cranberry in light mode, the lighter #B8565B in dark mode, so lamps read as light and the deep cranberry stays for headers and picked scenes. Set a tile's colour to `var(--cc-lamp)` to use it.
+
 ## 4.3.1 (2026-11-24)
 
 - Bubble Card pop-ups have the page colour behind their cards again (light #E3DDCF, dark #1B1513). Bubble paints the pop-up with `bubble-pop-up-main-background-color`, which was the card colour, so the cards in a pop-up had no edge.
