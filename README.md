@@ -53,8 +53,20 @@ After an update, run the action `frontend.reload_themes` (or restart) to see it.
 
 Copy `themes/cranberry_canvas.yaml` to `/config/themes/`, then steps 3 and 4 above.
 
-## Tokens for your own cards
+## Tokens
 
-Both modes define `--cc-cranberry`, `--cc-olive`, `--cc-quail`, `--cc-brick`, `--cc-harbour`,
-`--cc-ochre-tone`, `--cc-canvas`, `--cc-paper`, `--cc-ember`, `--cc-panel` and `--cc-ink`,
-for card-mod or your own cards.
+Every colour the [Cranberry cards](https://github.com/liamcamps/HA-Cranberry-cards) use comes
+from these tokens, so this file is the one place to change a colour. They work in card-mod and
+your own cards too.
+
+| Group | Tokens |
+| --- | --- |
+| Accents, for small marks (lighter in dark mode) | `cc-cranberry`, `cc-olive`, `cc-quail`, `cc-brick`, `cc-harbour`, `cc-ochre-tone` |
+| Fills, for whole coloured cards (the same in both modes) | `cc-fill-cranberry`, `cc-fill-olive`, `cc-fill-harbour`, `cc-fill-ochre`, `cc-fill-quail`, `cc-fill-ember` |
+| Text on fills and on cream | `cc-cream`, `cc-cream-muted`, `cc-on-cream`, `cc-shadow` |
+| Neutrals | `cc-canvas`, `cc-paper`, `cc-ember`, `cc-panel`, `cc-ink` |
+| Weather | `cc-sun`, `cc-mist`, `cc-taupe`, `cc-temp-freezing`, `cc-temp-cold`, `cc-temp-mild`, `cc-temp-warm`, `cc-temp-hot` |
+| Bins (per mode) | `cc-bin-green`, `cc-bin-paper`, `cc-bin-plastic`, `cc-bin-rest` |
+| Calendars, in the order they are picked | `cc-calendar-1` … `cc-calendar-5` |
+| The home card | `cranberry-home-card-background` |
+| Corners | `cc-r-card` (24px), `cc-r-ctl` (12px), `cc-r-chip` (8px) |

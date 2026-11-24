@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------------------
 # Cranberry Canvas — a Home Assistant theme
-# Version: 4.0.0
+# Version: 4.1.0
 # Palette
 #   Colour    Cranberry #591E21 · Olive #514718 · Harbour #40606A · Quail #7D8689
 #             Brick #A8352F · Ochre #8E6420 · Mist #9CC3D6 · Sun #F0B85A (data only)
@@ -106,9 +106,41 @@ Cranberry Canvas:
       cc-ochre-tone: "#8E6420"
       cc-paper: "#EEE9DF"
       cc-ember: "#2E2422"
+      # fills: whole coloured cards and surfaces, the same in both modes
+      cc-fill-cranberry: "#591E21"
+      cc-fill-olive: "#514718"
+      cc-fill-harbour: "#40606A"
+      cc-fill-ochre: "#8E6420"
+      cc-fill-quail: "#545C5F"
+      cc-fill-ember: "#3A2F2C"
+      # text and marks on those fills, and on cream
+      cc-cream: "#F2ECE0"
+      cc-cream-muted: "#D9C3C0"
+      cc-on-cream: "#231C1A"
+      cc-shadow: "#000000"
+      # weather: art, rain, and temperature from freezing to hot
+      cc-sun: "#F0B85A"
+      cc-mist: "#9CC3D6"
+      cc-taupe: "#B5ABA0"
+      cc-temp-freezing: "#B9D7E8"
+      cc-temp-cold: "#C4D6DE"
+      cc-temp-mild: "#E2DCC8"
+      cc-temp-warm: "#EEC480"
+      cc-temp-hot: "#F2A05C"
+      # calendars, in the order they are picked
+      cc-calendar-1: "#B8565B"
+      cc-calendar-2: "#8C7F45"
+      cc-calendar-3: "#8FA1A6"
+      cc-calendar-4: "#C99A4A"
+      cc-calendar-5: "#A9AFB1"
+      # bins: like the real ones, lighter in dark mode
+      cc-bin-green: "#5E7A34"
+      cc-bin-paper: "#3F6585"
+      cc-bin-plastic: "#C2702A"
+      cc-bin-rest: "#4E5457"
 
       # Cranberry home card
-      cranberry-home-card-background: "#591E21"
+      cranberry-home-card-background: "var(--cc-fill-cranberry)"
 
       # Bubble Card
       bubble-main-background-color: "#EEE9DF"
@@ -469,9 +501,41 @@ Cranberry Canvas:
       cc-ochre-tone: "#8E6420"
       cc-paper: "#EEE9DF"
       cc-ember: "#2E2422"
+      # fills: whole coloured cards and surfaces, the same in both modes
+      cc-fill-cranberry: "#591E21"
+      cc-fill-olive: "#514718"
+      cc-fill-harbour: "#40606A"
+      cc-fill-ochre: "#8E6420"
+      cc-fill-quail: "#545C5F"
+      cc-fill-ember: "#3A2F2C"
+      # text and marks on those fills, and on cream
+      cc-cream: "#F2ECE0"
+      cc-cream-muted: "#D9C3C0"
+      cc-on-cream: "#231C1A"
+      cc-shadow: "#000000"
+      # weather: art, rain, and temperature from freezing to hot
+      cc-sun: "#F0B85A"
+      cc-mist: "#9CC3D6"
+      cc-taupe: "#B5ABA0"
+      cc-temp-freezing: "#B9D7E8"
+      cc-temp-cold: "#C4D6DE"
+      cc-temp-mild: "#E2DCC8"
+      cc-temp-warm: "#EEC480"
+      cc-temp-hot: "#F2A05C"
+      # calendars, in the order they are picked
+      cc-calendar-1: "#B8565B"
+      cc-calendar-2: "#8C7F45"
+      cc-calendar-3: "#8FA1A6"
+      cc-calendar-4: "#C99A4A"
+      cc-calendar-5: "#A9AFB1"
+      # bins: like the real ones, lighter in dark mode
+      cc-bin-green: "#86A45A"
+      cc-bin-paper: "#7FA3C2"
+      cc-bin-plastic: "#E09A55"
+      cc-bin-rest: "#9AA0A3"
 
       # Cranberry home card
-      cranberry-home-card-background: "#591E21"
+      cranberry-home-card-background: "var(--cc-fill-cranberry)"
 
       # Bubble Card
       bubble-main-background-color: "#2E2422"
