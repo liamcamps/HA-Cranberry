@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.3.1 (2026-11-24)
+
+- Bubble Card pop-ups have the page colour behind their cards again (light #E3DDCF, dark #1B1513). Bubble paints the pop-up with `bubble-pop-up-main-background-color`, which was the card colour, so the cards in a pop-up had no edge.
+
 ## 4.3.0 (2026-11-24)
 
 - New token `cc-rain`: rain on a card (the weather card's chance of rain, rain icons and bars). Harbour in light mode, mist in dark mode, so it stays readable on dark cards.

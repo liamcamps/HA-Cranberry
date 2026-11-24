@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------------------
 # Cranberry Canvas — a Home Assistant theme
-# Version: 4.3.0
+# Version: 4.3.1
 # Palette
 #   Colour    Cranberry #591E21 · Olive #514718 · Harbour #40606A · Quail #7D8689
 #             Brick #A8352F · Ochre #8B621F · Mist #9CC3D6 · Sun #F0B85A (data only)
@@ -156,7 +156,8 @@ Cranberry Canvas:
       bubble-light-white-color: "#591E21"
       bubble-sub-button-background-color: "rgba(227, 221, 207, 0.65)"
       bubble-pop-up-background-color: "rgba(227, 221, 207, 0.98)"
-      bubble-pop-up-main-background-color: "#EEE9DF"
+      # the pop-up itself: the page colour, so the cards inside stand out from it
+      bubble-pop-up-main-background-color: "#E3DDCF"
       bubble-backdrop-background-color: "rgba(35, 28, 26, 0.35)"
       bubble-horizontal-buttons-stack-background-color: "#591E21"
       bubble-media-player-main-background-color: "#EEE9DF"
@@ -554,7 +555,8 @@ Cranberry Canvas:
       bubble-light-white-color: "#8A3A3E"
       bubble-sub-button-background-color: "rgba(227, 221, 207, 0.08)"
       bubble-pop-up-background-color: "rgba(27, 21, 19, 0.98)"
-      bubble-pop-up-main-background-color: "#2E2422"
+      # the pop-up itself: the page colour, so the cards inside stand out from it
+      bubble-pop-up-main-background-color: "#1B1513"
       bubble-backdrop-background-color: "rgba(0, 0, 0, 0.5)"
       bubble-horizontal-buttons-stack-background-color: "#8A3A3E"
       bubble-media-player-main-background-color: "#2E2422"
